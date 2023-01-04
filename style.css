@@ -7,3 +7,26 @@ label{
 label input{
     padding: 5px;
 }
+.table-head{
+    text-align: center;
+    font-size: 50px;
+    color: purple;
+    font-weight:bolder;
+}
+table{
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+
+}
+
+tr th,td{
+    border: 1px solid blue;
+    padding: 10px 20px;
+}
+
