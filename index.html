@@ -5,10 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Wellcome To our Website</h1>
     <h2>mama ata amar prothom project</h2>
-   
+    <section class="contact-form">
+        <form action="">
+            <label for="name">Your Name
+                <input id="name" type="text" placeholder="Enter Your Name">
+            </label>
+            <label for="email">Your Email
+                <input id="email" type="email" placeholder="Enter Your Email" required>
+            </label>
+            <label for="phone">Your Number
+                <input id="phone" type="number" placeholder="Enter Your Phone Number">
+            </label>
+            <fieldset >
+                <legend>Pick Your Service</legend>
+                    <label for="design">
+                        <input type="radio" name="service" id="design">
+                        Web Design
+                    </label>
+                    <label for="wordpres">
+                        <input type="radio" name="service" id="wordpres">
+                        WordPress Web Design
+                    </label>
+                    <label for="full-stack">
+                        <input type="radio" name="service" id="full-stack">
+                        Full Stuck Web Development
+                    </label>
+            </fieldset>
+            <fieldset>
+                <legend>Choose Your Option (Optional)</legend>
+                <label for="speed">
+                    <input type="checkbox" name="wp-service" id="speed">
+                    WordPress Speed Optimazation
+                </label>
+                <label for="transfer">
+                    <input type="checkbox" name="wp-service" id="transfer">
+                    WordPress Website Transer
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Send Your Massage</legend>
+                <textarea name="" id="" cols="60" rows="5"></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit Your Form">
+        </form>
+    </section>
 </body>
 </html>

@@ -1,0 +1,9 @@
+
+
+label{
+    display: block;
+    padding-bottom: 10px;
+}
+label input{
+    padding: 5px;
+}
